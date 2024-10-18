@@ -1,0 +1,349 @@
+body{
+    overflow-x: hidden;
+}
+#check:checked~.navbar ul{
+    display: block;
+}
+#check{
+    display: none;
+}
+@media screen and (max-width: 500px){
+     
+    .navbar label{
+        display: block;
+    }
+    .navbar ul{
+        display: none;
+        position: absolute;
+        top: 115px;
+        background-color: black;
+        width: 20%;
+    }
+    .navbar ul li{
+        padding: 20px;
+        color: white;
+    }
+}
+header{
+    background-image: url(travel2.jpg);
+    background-size: cover;
+    /* padding: 250px; */
+    display: flex;
+    align-items: center;
+    color: black;   
+    flex-wrap: wrap;
+}
+li{
+    color: black;
+}
+.mera{
+    background-color:black;
+    border-radius: 100px;
+    font-size: 60px;
+    color: aliceblue;
+    padding: 10px;
+    text-align: left;
+}
+.deko{
+    color: aliceblue;
+    font-size: 20px
+    font-family:'Arial Narrow Bold';
+    color: black;
+}
+.navbar{  
+    display: flex;
+    margin-top: auto;
+    font-size: 20px;    
+}
+
+.nav3 #btn_1{
+    color: white;
+    background-color: orangered;
+    padding: 5px;
+    border-radius: 50px;
+}
+#btn_1:hover{
+    cursor: pointer;
+    background-color:skyblue;
+    color:black;
+    font-weight: bold;
+    margin: 5px black;
+    padding: 5px;
+    border-radius: 50px;
+}
+.gg #btn_2{
+    color: white;
+    background-color: orangered;
+    padding: 5px;
+    border-radius: 50px;
+}
+#btn_2:hover{
+    cursor: pointer;
+    background-color:skyblue;
+    color:black;
+    font-weight: bold;
+    margin: 5px black;
+    padding: 5px;
+    border-radius: 50px;   
+}
+.lk #btn_3{
+    color: black;
+    background-color: white;
+    padding: 5px;
+    border-radius: 50px;   
+}
+#btn_3:hover{
+    cursor: pointer;
+    background-color:skyblue;
+    color:black;
+    font-weight: bold;
+    margin: 5px black;
+    padding: 5px;
+    border-radius: 50px;    
+}
+.khg #btn_4{
+    color: black;
+    background-color: white;
+    padding: 5px;
+    border-radius: 50px;    
+}
+#btn_4:hover{
+    cursor: pointer;
+    background-color:skyblue;
+    color:black;
+    font-weight: bold;
+    margin: 5px black;
+    padding: 5px;
+    border-radius: 50px;    
+}
+.c2 #btn_5{
+    color: white;
+    background-color: orangered;
+    padding: 5px;
+    border-radius: 50px;   
+}
+#btn_5:hover{
+    cursor: pointer;
+    background-color:skyblue;
+    color:black;
+    font-weight: bold;
+    margin: 5px black;
+    padding: 5px;
+    border-radius: 50px;    
+}
+.navbar ul{
+    color: aliceblue;
+    display: flex;
+    font-family: 'Franklin Gothic Medium';
+    gap: 80px;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: auto;
+}
+
+.nextline p{   
+    font-size: 30px;
+    padding-left: 10px;
+    margin-left: 20px;
+    flex-wrap: wrap;
+}
+
+.nextline{
+    
+    background-color: rgb(191, 248, 241);
+    display: flex;
+    padding-top: 20px;
+    margin:10px;   
+    flex-wrap: wrap;
+}   
+
+.centerline p{
+    color:aliceblue;
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium' ;
+    text-align: center;
+    
+}
+.centerline h1{
+    color: aliceblue;
+    font-size: 40px;
+    text-align:center;
+}
+
+section{
+    background-image: url(travelsea.jpg);
+    background-size: cover;
+    /* padding: 400px; */
+    flex-wrap: wrap;
+}
+@media screen and (max-width: 500px){
+.child_23 video{
+    width: 250px;
+}
+}
+
+
+@media screen and (max-width: 500px){
+    .kk{
+        flex-wrap: wrap;
+    }
+    .parent_2{
+        flex-wrap: wrap;
+    }
+    .lk{
+        flex-wrap: wrap;
+    }
+    .another{
+        flex-wrap: wrap;
+    }
+    .advtravel{
+        flex-wrap: wrap;
+    }
+    .khg{
+        flex-wrap: wrap;
+    }
+    .parent_3 {
+        flex-wrap: wrap;
+    }
+    .parent_2 img{
+        width: 450px;
+    }
+}
+.gg{
+   display: flex;
+   justify-content: center; 
+}
+#btn:hover{
+    cursor: pointer;
+    background-color:skyblue;
+    color:black;
+    font-size:medium;
+    font-weight: bold;
+    margin: 15px black;
+    padding: 12px;
+    border-radius: 50px;
+}
+.kk{
+    text-align:left;
+    padding-left: 90px;
+    text-decoration: underline;
+  
+}
+.parent_2{
+    background-color: cadetblue;
+    line-height: 50px;
+    display:flex;
+    justify-content: right;
+    padding-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 10px ;
+    line-height: 50px;
+    font-size:30px;
+    font-family: 'Franklin Gothic Medium';
+    text-align:center ;
+    text-wrap:balance;
+}
+.lk{
+    display: flex;
+    justify-content: center;
+    background-color: red;
+}
+#btn:hover{
+    cursor: pointer;
+    background-color:skyblue;
+    color:black;
+    font-size:medium;
+    font-weight: bold;
+    margin: 15px black;
+    padding: 12px;
+    border-radius: 50px;
+}
+.another{
+    text-align:right;
+    padding-right: 90px;
+    text-decoration: underline;
+}
+.advtravel{
+    background-color: cadetblue;
+    line-height: 50px;
+    display:flex;
+    justify-content: right;
+    padding-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 10px ;
+    line-height: 50px;
+    font-size:30px;
+    font-family: 'Franklin Gothic Medium';
+    text-align:center ;
+    text-wrap:balance;
+}
+.khg{
+    display: flex;
+    justify-content: center;
+    background-color: red;
+
+}
+#btn:hover{
+    cursor: pointer;
+    background-color:skyblue;
+    color:black;
+    font-size:medium;
+    font-weight: bold;
+    margin: 15px black;
+    padding: 12px;
+    border-radius: 50px;
+}
+
+.parent_3{
+    color:aliceblue;
+    background-color:darkslategrey;
+    display: flex;
+    padding: 50px;
+    
+}
+.parent_3 ul{
+    list-style: none;
+    
+}
+
+
+.c0{
+    text-align: center;
+    margin-top: auto;
+    height: 30vh;
+    width: 30vw;
+}
+
+.c1{
+    text-align: center;
+    margin-top: auto;
+    height: 30vh;
+    width: 30vw;
+    color: aliceblue;
+    
+}
+.c2{
+    text-align: center;
+    margin-top: auto;
+    height: 30vh;
+    width: 30vw; 
+    color: aliceblue;
+    
+}
+
+.pata{
+    color: orangered;
+    font-size: large;
+   }
+   .mailmera{
+    color: orangered;
+    font-size: large;
+   }
+   .phonemera{
+    color: orangered;
+    font-size: large;
+   }
+
